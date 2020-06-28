@@ -4,6 +4,7 @@ import "./plugins/axios.ts"
 import "./plugins/platform.ts"
 import router from "./plugins/router"
 import "./plugins/vant.ts"
+import "./plugins/rem.ts"
 
 import "../mock"
 
