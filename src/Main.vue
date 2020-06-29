@@ -1,15 +1,14 @@
 <template>
-  <div id="app"></div>
+  <router-view></router-view>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 
 @Component
-export default class App extends Vue {}
+export default class Main extends Vue {}
 </script>
 
 <style lang="less">
-#app {
-}
+
 </style>
