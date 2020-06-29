@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Main from './Main.vue'
+import "./plugins/axios.js"
 import router from "./plugins/router"
 
 Vue.config.productionTip = false
