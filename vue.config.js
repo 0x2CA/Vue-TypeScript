@@ -1,4 +1,5 @@
-// vue.config.js
+// https://cli.vuejs.org/zh/config/
 module.exports = {
-    publicPath: "/"
+    publicPath: "/",
+    outputDir: 'build',
 }
