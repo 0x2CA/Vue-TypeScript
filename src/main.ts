@@ -4,6 +4,8 @@ import "./plugins/axios.ts"
 import "./plugins/platform.ts"
 import router from "./plugins/router"
 
+import "../mock"
+
 Vue.config.productionTip = false
 
 new Vue({
